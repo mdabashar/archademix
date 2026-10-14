@@ -1,6 +1,6 @@
 'use strict';
 // Add a public business email or HTTPS booking URL here when ready.
-const CONTACT = { email: '', bookingUrl: '' };
+const CONTACT = { email: 'archademix@gmail.com', bookingUrl: '' };
 const menuButton = document.querySelector('.menu-toggle');
 const navigation = document.querySelector('#navigation');
 menuButton.addEventListener('click', () => {

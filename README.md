@@ -17,7 +17,7 @@ Run `python -m http.server 8000` from this directory, then open http://localhost
 
 ## Contact and booking
 
-Set the public business email or HTTPS booking link in `CONTACT` at the top of `script.js`. Until configured, the site honestly displays that booking details are being finalised. It does not collect, store or submit visitor information. No payment processor or booking service is connected.
+The public enquiry email is **archademix@gmail.com**. Session enquiry buttons open an email draft; the visitor sends it using their own email app. Update `CONTACT` in `script.js` and the email links in `index.html` together when changing the address. A booking URL can also be configured in `CONTACT`. It does not collect, store or submit visitor information. No payment processor or booking service is connected.
 
 ## Hosting
 

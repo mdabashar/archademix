@@ -2,7 +2,7 @@
 
 A responsive tutoring and study coaching website, built around the supplied Archademix logo and business presentation.
 
-**Website:** https://mdabashar.github.io/archademix/
+**Website:** https://archademix.com/
 
 ## Files
 
@@ -24,3 +24,7 @@ The public enquiry email is **archademix@gmail.com**. Session enquiry buttons op
 GitHub Pages publishes `main` from the repository root. Changes to website files on that branch are automatically published. `.nojekyll` allows the static files to be served directly.
 
 Google Fonts provides the typefaces; system fonts are used if the font service is unavailable. Pricing is AUD $30 per hour per student, as stated in the supplied presentation. No school location, private contact information, unpublished planner products or invented testimonials are included.
+
+## Custom domain
+
+The GitHub Pages custom domain is `archademix.com`. GoDaddy DNS must point the apex (`@`) to GitHub Pages via A records `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, and `185.199.111.153`. Set the `www` CNAME to `mdabashar.github.io`. Enable HTTPS in Pages settings once the certificate has been issued.
